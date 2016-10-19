@@ -17,7 +17,8 @@ class System {
 
 	public:
 		// Constructor
-		// Inicia el sistema
+		// pre: -
+		// post: se inicio el sistema
 		System();
 
 		// Crea una lista de antenas
@@ -63,6 +64,8 @@ class System {
 		void disconnectCellPhone(CellPhone* X);
 
 		// Destructor
+		// pre: -
+		// post: El sistema fue destruido.
 		~System();
 };
 
